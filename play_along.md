@@ -12,6 +12,10 @@ Siga os passos abaixo
     
     `git checkout -b exercicio 1.0`
 
+* Exemplos de itens que podem ser melhorados no código: 
+-> Lógica de negócio em switch/case
+-> Comentários que sugerem refatoração de métodos
+
 * Agora é com você. Brinque no código e o melhore baseado em melhores práticas OO
 
 * Faa uma requisicao de integracao no master através de um [pull request](http://help.github.com/send-pull-requests/).
