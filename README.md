@@ -1,13 +1,12 @@
 ## Refactoring: Improving the Design of Existing Code
 
-Java code following along with the first chapter of Martin Fowler's book. 
+Aqui você encontra o código Java do primeiro capítulo do livro do Martin Fowler
 
 ### HEAD
-Look through the revision history to see how Fowler gets from the start (the 1.0 tag) to the end of the chapter. Each commit roughly equates to a single step or refactoring.
+Olhe o histórico de revisao para examinar o código desde o seu incio (tag 1.0) até o final do capítulo.
+Cada commit representa um refactoring realizado.
 
 ### Tags
-1.0 - The initial commit tag, this is the starting place if you want to play along at home. 
-See [playing along at home](/play_along.md) for checkout instructions
+1.0 - Ponto de partida para exercícios. 
+Ver [exercicio de código limpo(/play_along.md) com instruções de como fazer o checkout.
 
-### Branches
-more-oo - replaying chapter 1 but working towards as an OO design as I can. This branch explores alternative solutions. 
