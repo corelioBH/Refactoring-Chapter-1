@@ -15,7 +15,7 @@ public class CustomerTest {
 
     @Test
     public void basicChildrenRental() {
-        customer.addRental(new Rental(THE_HULK, 2));
+        customer.addRental(new Rental(THE_HULK, 3));
         assertThat(customer.statement(), is(expectedMessageFor("The Hulk", 1.5, 1.5, 1)));
     }
 
@@ -49,6 +49,8 @@ public class CustomerTest {
         assertThat(customer.statement(), is(expectedMessageFor("Spiderman", 5.0, 5.0, 1)));
     }
 
+   
+
     @Test
     public void shouldSumVariousRentals() {
         customer.addRental(new Rental(THE_HULK, 2));
@@ -58,7 +60,7 @@ public class CustomerTest {
     }
 
     private static String expectedMessageFor(String rental, double price, double total, int renterPointsEarned) {
-        return "Rental record for fred\n\t" + rental + "\t" + price + "\nAmount owed is " + total + "\nYou earned " + renterPointsEarned + " frequent renter points";
+        return "Rental record forfred\n\t" + rental + "\t" + price + "\nAmount owed is " + total + "\nYou earned " + renterPointsEarned + " frequent renter points";
     }
 
 }
