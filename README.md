@@ -2,11 +2,17 @@
 
 Aqui você encontra o código Java do primeiro capítulo do livro do Martin Fowler
 
-### HEAD
-Olhe o histórico de revisao para examinar o código desde o seu incio (tag 1.0) até o final do capítulo.
-Cada commit representa um refactoring realizado.
+### Codigo inicial
+Para examinar o código inicial execute os seguintes comandos:
+```git
+git clone https://github.com/corelioBH/Refactoring-Chapter-1.git
+git checkout -q 1.0
+```
 
-### Tags
-1.0 - Ponto de partida para exercícios. 
-Ver [exercicio de código limpo(/play_along.md) com instruções de como fazer o checkout.
+### Codigo final
+Para examinar o código depois de refatorações aplicadas use o seguinte comando
+```git
+git checkout -q master
+```
+
 
